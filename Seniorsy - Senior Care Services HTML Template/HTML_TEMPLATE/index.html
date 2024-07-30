@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/vendor/fontawesome.css" />
+    <link rel="stylesheet" href="css/vendor/brands.css" />
+    <link rel="stylesheet" href="css/vendor/regular.css" />
+    <link rel="stylesheet" href="css/vendor/solid.css" />
+    <link rel="stylesheet" href="css/vendor/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HEAL GLOBE - Homepage</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <!-- <section class="bg-accent-color-1 py-3 headerSection">
+      <div class="r-container">
+        <div
+          class="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center gap-3"
+        >
+          <ul
+            class="headercontacts d-flex m-0 flex-row justify-content-center align-items-center gap-3 text-white font-2 text-center text-lg-start"
+            style="list-style: none"
+          >
+            <li>Email : info@healglobe.in</li>
+            <li>Phone : +91 8089723646 &nbsp; +91 6238316116</li>
+            <li>Opening Hours : 09:00AM to 06:00PM</li>
+          </ul>
+          <div class="social-container justify-content-center">
+            <a href="https://www.facebook.com" class="social-item">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" class="social-item">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" class="social-item">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="sticky-top bg-white">
+      <div class="r-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <div class="logo-container">
+                <img src="./image/footerlogo.png" alt="" class="img-fluid" />
+              </div>
+            </a>
+            <button
+              class="navbar-toggler accent-color border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav mx-auto mb-2 mb-lg-0 font-2 fw-semibold gap-lg-3"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Homepage</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Service
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item active" href="single_service.html"
+                        >Medical Tourism</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item active"
+                        href="globaled_service.html"
+                        >Global Education</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item active"
+                        href="globaltrade_service.html"
+                        >Global Medical Equipment Trade</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Package</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <a
+                href="https://wa.me/918089723646?text=Hello%2C%20I%20am%20interested%20in%20your%20services!"
+                target="_blank"
+                type="button"
+                class="btn button bg-accent-color"
+                type="submit"
+                >Book An Appointment</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- End  of Header -->
+
+    <main>
+      <!-- Banner -->
+      <section
+        class="section image-infinite-bg position-relative banner"
+        style="
+          background-size: cover;
+          background-position: center;
+          padding: 15em 1em 15em 1em;
+        "
+        data-images='["./image/HomeSlider1.jpg", "./image/HomeSlider2.jpg"]'
+      >
+        <div class="r-container h-100">
+          <div class="image-overlay"></div>
+          <div
+            class="banner d-flex flex-column justify-content-center gap-3 h-100 position-relative"
+            style="max-width: 768px; z-index: 2"
+          >
+            <h1 class="text-title text-white fw-bold font-1 lh-1">
+              Healing Horizons <br />
+            </h1>
+            <p class="text-white fa-2x text-font">
+              Discovering Healthcare Beyond Borders
+            </p>
+            <div>
+              <a
+                type="button"
+                href="about_us.html"
+                class="btn bg-accent-color text-font rounded-0"
+                >LEARN MORE</a
+              >
+            </div>
+            <!-- Integrated Search Form -->
+          </div>
+        </div>
+      </section>
+      <section class="searchdiv w-full d-flex justify-content-center mt-5">
+        <div class="searchbox">
+          <form
+            id="search-frm"
+            name="search-frm"
+            method="get"
+            action="search"
+            class="w-100"
+          >
+            <div class="row justify-content-center">
+              <div class="">
+                <div class="d-flex searchSpace">
+                  <select
+                    class="custom-select rounded-0 search-dd"
+                    id="sType"
+                    name="t"
+                    onchange="get_search_list(this);"
+                    required
+                  >
+                    <option value="">Select</option>
+                    <option value="1">Treatments</option>
+                    <option value="2">Hospitals</option>
+                    <option value="3">Doctors</option>
+                  </select>
+                  <div class="position-relative w-100">
+                    <input
+                      type="text"
+                      name="q"
+                      id="searchInput"
+                      class="form-control search-input"
+                      autocomplete="off"
+                      placeholder="Type treatments, doctors, hospitals name"
+                      readonly
+                    />
+                    <button
+                      class="btn btn-outline-secondary position-absolute top-50 end-0 translate-middle-y d-none"
+                      id="datalistToggle"
+                      type="button"
+                      onclick="toggleDatalist()"
+                    >
+                      ▼
+                    </button>
+                    <div
+                      id="datalistContainer"
+                      class="datalist-container d-none"
+                    >
+                      <!-- The options will be injected here -->
+                    </div>
+                  </div>
+                  <div class="input-group-append search-btn">
+                    <button
+                      class="searchButton btn rounded-0 px-5 w-100"
+                      type="button"
+                      onclick="init_search();"
+                    >
+                      SEARCH
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Welcome To Seniorsy -->
+      <section class="section">
+        <div class="r-container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col mb-3 pe-lg-3 position-relative">
+              <div class="overlay right"></div>
+              <div class="position-relative pe-5">
+                <img
+                  src="./image/WelcomePage.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                  style="z-index: -2"
+                />
+                <div class="position-absolute bottom-0 start-0 ms-4 mb-4"></div>
+              </div>
+            </div>
+            <div class="col mb-3 welcomediv">
+              <div class="d-flex flex-column gap-3 p-3">
+                <h6 class="accent-color font-2 fw-semibold">
+                  Welcome To Heal Globe
+                </h6>
+                <h3 class="text-black font-1 lh-1 fw-semibold">
+                  From Treatment to Travel: Your Guide to Medical Tourism
+                </h3>
+                <p class="text-black">
+                  We are leaders in merging top-tier medical expertise with the
+                  thrill of travel, redefining the concept of healthcare. Our
+                  mission is to democratize access to world-class medical care
+                  through an extensive network of esteemed professionals and
+                  state-of-the-art facilities worldwide. With us, individuals
+                  can seamlessly integrate wellness into their adventures,
+                  ensuring their health remains a priority wherever they go.
+                </p>
+                <div class="row row-cols-2 whatweoffer">
+                  <h3 class="font-1 fw-semibold">What we offer</h3>
+                  <div>
+                    <div class="col mb-2">
+                      <div class="d-flex flex-row gap-2 align-items-center">
+                        <i
+                          class="fa-solid fa-circle-arrow-right accent-color"
+                        ></i>
+                        <span class="text-black fw-semibold"
+                          >Global Education</span
+                        >
+                      </div>
+                    </div>
+                    <div class="col mb-2">
+                      <div class="d-flex flex-row gap-2 align-items-center">
+                        <i
+                          class="fa-solid fa-circle-arrow-right accent-color"
+                        ></i>
+                        <span class="text-black fw-semibold"
+                          >Medical Tourism
+                        </span>
+                      </div>
+                    </div>
+                    <div class="col mb-2">
+                      <div class="d-flex flex-row gap-2 align-items-center">
+                        <i
+                          class="fa-solid fa-circle-arrow-right accent-color"
+                        ></i>
+                        <span class="text-black fw-semibold"
+                          >Global Medical Equipment Trade</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-4 border-bottom w-100"></div>
+                <div class="row row-cols-1 row-cols-lg-2">
+                  <div class="col mb-3">
+                    <div
+                      class="d-flex flex-lg-row flex-column justify-content-lg-start align-items-center gap-2 justify-content-center"
+                    >
+                      <div
+                        class="bg-accent-color text-white rounded-3 icon-box"
+                        style="font-size: 20px; width: 3rem; height: 3rem"
+                      >
+                        <i class="fa-solid fa-user-doctor"></i>
+                      </div>
+                      <span class="font-1 fs-3 lh-1 fw-semibold"
+                        >Expert Nursing Staff</span
+                      >
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div
+                      class="d-flex flex-lg-row flex-column justify-content-lg-start align-items-center gap-2 justify-content-center"
+                    >
+                      <div
+                        class="bg-accent-color text-white rounded-3 icon-box"
+                        style="font-size: 20px; width: 3rem; height: 3rem"
+                      >
+                        <i class="fa-solid fa-house-medical-circle-check"></i>
+                      </div>
+                      <span class="font-1 fs-3 lh-1 fw-semibold"
+                        >Safe Solution For Health</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Types Of Care -->
+      <section class="section bg-light">
+        <div class="r-container">
+          <div
+            class="d-flex flex-column gap-3 justify-content-center text-center"
+          >
+            <h6 class="accent-color font-2">OUR SERVICES</h6>
+            <h3 class="text-black font-1 lh-1 fw-semibold">
+              Providing Quality Health Care &amp; Education
+            </h3>
+            <p class="text-black mx-auto fw-semibold" style="max-width: 768px">
+              Comprehensive, Affordable, and World-Class Healthcare Solutions &
+              Empowering Future Medical Professionals with Global Education
+              Opportunities.
+            </p>
+            <div class="row row-cols-1 row-cols-lg-3">
+              <div class="col">
+                <div
+                  class="card p-3 with-border-bottom border-0 shadow rounded-3"
+                >
+                  <img
+                    src="./image/medical tourism main slider 1.jpg"
+                    style="height: 32vh;"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="font-1 fw-bold">Medical Tourism</h5>
+                    <p class="text-black">
+                      Embark On A Journey Of Healing And Discovery As We Curate
+                      Unparalleled Medical Tourism Experiences, Seamlessly
+                      Blending Top-Notch Healthcare With The Thrill Of
+                      Exploration.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a
+                        type="button"
+                        href="single_service.html"
+                        class="btn post-button font-2 d-flex flex-row align-items-center gap-2"
+                        >Read More
+                        <i class="fa-solid fa-circle-arrow-right mt-1"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="card p-3 with-border-bottom border-0 shadow rounded-3"
+                >
+                  <img
+                    src="./image/GlobalMedicalEducation.jpg"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="font-1 fw-bold">Global Education</h5>
+                    <p class="text-black">
+                      Open The Doors To International Education And Advancement
+                      In The Medical Field With Our Expert Guidance And Support
+                      In Securing Admissions For MBBS, MD, And MS Courses In
+                      Egypt China, Georgia, And Kazakhstan, Offering You A
+                      Global Perspective On Healthcare Education.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a
+                        type="button"
+                        href="globaled_service.html"
+                        class="btn post-button font-2 d-flex flex-row align-items-center gap-2"
+                        >Read More
+                        <i class="fa-solid fa-circle-arrow-right mt-1"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="card p-3 with-border-bottom border-0 shadow rounded-3"
+                >
+                  <img
+                    src="./image/EquipmentTrade.jpg"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="font-1 fw-bold">
+                      Global Medical Equipment Trade
+                    </h5>
+                    <p class="text-black">
+                      Facilitate The Seamless Exchange Of Cutting-Edge Medical
+                      Technology Across Borders With Our Specialized Services,
+                      Ensuring Access To The Latest Advancements In Healthcare
+                      Worldwide.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                      <a
+                        type="button"
+                        href="globaltrade_service.html"
+                        class="btn post-button font-2 d-flex flex-row align-items-center gap-2"
+                        >Read More
+                        <i class="fa-solid fa-circle-arrow-right mt-1"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center my-4">
+              <a
+                href="service.html"
+                type="button"
+                class="btn bg-accent-color p-3 font-2"
+                >All Services</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Seniorsy -->
+      <section class="section">
+        <div class="r-container">
+          <div class="d-flex flex-lg-row flex-column-reverse ourS">
+            <div class="col mb-3">
+              <div
+                class="d-flex flex-column gap-3 p-3 h-100 justify-content-center ourstrategies"
+              >
+                <!-- <h6 class="accent-color font-2 ">Why Choose Seniorsy</h6> -->
+                <h3 class="text-black font-1 lh-1 fw-bold">
+                  OUR STRATEGIES IN MEDICAL TOURISM
+                </h3>
+                <div class="d-flex flex-lg-row flex-column">
+                  <div
+                    class="col text-white gap-3 col-lg-5 rounded-2 bg-accent-color p-3 text-center d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <div
+                      class="rounded-circle p-1 bg-white accent-color"
+                      style="width: 4rem; height: 4rem; font-size: 2.3rem"
+                    >
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h5 class="font-1 lh-1 fw-bold">
+                      Clarify Your Queries Call Us Now
+                    </h5>
+                    <h5 class="font-1 lh-1 fw-bold">+91 6238316116</h5>
+                    <h5 class="font-1 lh-1 fw-bold">+91 8089723646</h5>
+                  </div>
+                  <div class="col col-lg-7">
+                    <div class="d-flex flex-column ps-3 wespeccailize">
+                      <p>
+                        We specialize in providing exceptional healthcare
+                        solutions through medical tourism. Our mission is to
+                        connect you with world-class medical facilities and
+                        renowned healthcare professionals across the globe,
+                        ensuring you receive the highest standards of treatment
+                        and care.
+                      </p>
+                      <div class="d-flex flex-column gap-2">
+                        <div class="d-flex flex-row gap-2 align-items-center">
+                          <i class="fa-solid fa-square-check accent-color"></i>
+                          Partnering with Accredited Facilities
+                        </div>
+                        <div class="d-flex flex-row gap-2 align-items-center">
+                          <i class="fa-solid fa-square-check accent-color"></i>
+                          Tailored Healthcare Solutions
+                        </div>
+                        <div class="d-flex flex-row gap-2 align-items-center">
+                          <i class="fa-solid fa-square-check accent-color"></i>
+                          Comprehensive Travel and Logistics Support
+                        </div>
+                        <div class="d-flex flex-row gap-2 align-items-center">
+                          <i class="fa-solid fa-square-check accent-color"></i>
+                          Cost-Effective Solutions
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5 pe-lg-3 position-relative">
+              <div class="overlay left"></div>
+              <div class="position-relative ps-5">
+                <img
+                  src="./image/WHY CHOOSE US.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                  style="z-index: -2"
+                />
+                <div
+                  class="position-absolute bottom-0 end-0 d-flex justify-content-end"
+                >
+                  <div
+                    class="bg-accent-color rounded-3 p-4 w-75"
+                    style="margin-bottom: -3rem"
+                  >
+                    <h6 class="font-1 text-white fw-bold">
+                      Our Customer Is First Priority In Our Passion
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section pt-0">
+        <div class="r-container">
+          <div class="row row-cols-1 row-cols-lg-4">
+            <div class="col">
+              <div
+                class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center align-items-center p-2"
+              >
+                <h3 class="accent-color font-1 fw-bold lh-1">250+</h3>
+                <h5 class="font-1 fw-bold">Completed Cases</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center align-items-center p-2"
+              >
+                <h3 class="accent-color font-1 fw-bold lh-1">50+</h3>
+                <h5 class="font-1 fw-bold">Nursing Staff</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center align-items-center p-2"
+              >
+                <h3 class="accent-color font-1 fw-bold lh-1">20+</h3>
+                <h5 class="font-1 fw-bold">Senior Doctors</h5>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center align-items-center p-2"
+              >
+                <h3 class="accent-color font-1 fw-bold lh-1">200+</h3>
+                <h5 class="font-1 fw-bold">Happy Couples</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- We Care With Compassion -->
+      <section
+        class="position-relative"
+        style="background-image: url(./image/Wecarewithcompassion.jpg)"
+      >
+        <div class="r-container">
+          <div class="image-overlay"></div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center text-center position-relative gap-3"
+            style="z-index: 2; min-height: 70vh"
+          >
+            <h4 class="font-1 text-white fw-bold fa-3x">
+              We Care With Compassion
+            </h4>
+            <p
+              class="text-white fw-semibold fa-1x p-2"
+              style="max-width: 768px"
+            >
+              From the moment you reach out to us, we prioritize your needs and
+              preferences. Our dedicated team takes the time to understand your
+              medical history, concerns, and goals, ensuring you receive
+              personalized care tailored to your unique situation.
+            </p>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div
+          class="modal fade bg-overlay"
+          id="videomodal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark-color">
+              <iframe
+                class="ifr-video"
+                src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What They Say ? -->
+      <section
+        class="section pt-0 position-relative whattheysay"
+        style="margin-top: -100px"
+      >
+        <div class="r-container">
+          <div class="overflow-hidden rounded-4">
+            <div class="row row-cols-1 row-cols-lg-2">
+              <div class="col bg-accent-color text-white">
+                <div
+                  class="d-flex flex-column gap-3 p-5 h-100 justify-content-center whattheysayred"
+                >
+                  <!-- <h6 class="font-2">What They Say ?</h6> -->
+                  <h3 class="font-1 lh-1 fw-bold fa-4x">Our Happy Clients</h3>
+                  <!-- <p class="fs-6">
+                    Sed congue mollis orci et tempus. Etiam semper elit id
+                    turpis ornare posuere a sit amet elit. Nulla facilisi.
+                    Nullam augue lectus, lobortis et risus id, ornare porttitor
+                    arcu.
+                  </p> -->
+                  <!-- <div>
+                    <a
+                      href="contact.html"
+                      type="button"
+                      class="btn bg-accent-color-1 p-3"
+                      >Contact Us</a
+                    >
+                  </div> -->
+                </div>
+              </div>
+              <div class="col bg-light text-white">
+                <section id="testim" class="testim">
+                  <div class="testim-cover">
+                    <div class="wrap">
+                      <span
+                        id="right-arrow"
+                        class="arrow right fa fa-chevron-right"
+                      ></span>
+                      <span
+                        onclick="leftSlide()"
+                        id="left-arrow"
+                        class="arrow left fa fa-chevron-left"
+                      ></span>
+                      <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li>
+                        <!--
+                                      -->
+                        <li class="dot"></li>
+                        <!--
+                                      -->
+                        <li class="dot"></li>
+                        <!--
+                                      -->
+                      
+                      </ul>
+                      <div id="testim-content" class="cont">
+                        <div class="active">
+                          <h2>Aisha</h2>
+                          <p>
+                            I cannot express how grateful I am for the services
+                            provided by Healglobe. From the moment I decided to
+                            seek medical treatment , they were with me every
+                            step of the way. The staff was incredibly supportive
+                            and professional, ensuring that all my needs were
+                            met. The quality of care I received was top-notch,
+                            and the entire process was smooth and stress-free.
+                            Thank you, Healglobe, for making this experience so
+                            positive!"
+                          </p>
+                        </div>
+
+                        <div>
+                          <h2>Renjith</h2>
+                          <p>
+                            My experience with Healglobe was amazing. The team was incredibly helpful and responsive, always available to answer my questions and provide support. The medical facilities were world-class, and the doctors were highly skilled and compassionate
+                          </p>
+                        </div>
+
+                        <div>
+                          <h2>Abraham John</h2>
+                          <p>
+                            Choosing Healglobe for my medical treatment abroad was one of the best decisions I've ever made. The entire process was organized and efficient, with the team taking care of every detail. The care I received was exceptional, and I felt truly valued as a patient.
+                          </p>
+                        </div>
+                        <!-- <div>
+                          <div class="img">
+                            <img
+                              src="https://p16-sg-default.akamaized.net/aweme/1080x1080/tiktok-obj/1666413671597057.jpeg"
+                              alt=""
+                            />
+                          </div>
+                          <h2>Lorem De Ipsum</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco.
+                          </p>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Work ? -->
+      <section class="section bg-light">
+        <div class="r-container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col mb-3">
+              <div
+                class="d-flex flex-column gap-3 h-100 justify-content-center"
+              >
+                <h6 class="font-2 accent-color">OUR PROCEDURES</h6>
+                <h3 class="font-1 lh-1 fw-bold fs-1 mb-3">
+                  The Amazing Steps Of Our Treatment
+                </h3>
+                <div class="d-flex flex-column gap-5">
+                  <div
+                    class="d-flex flex-row gap-3 align-items-baseline proceduresdiv"
+                  >
+                    <div class="bg-accent-color rounded-3 py-2 px-4 text-white">
+                      <h4 class="lh-1 m-0 p-0 fw-bold font-1">1</h4>
+                    </div>
+                    <div class="d-flex flex-column margin-1">
+                      <h5 class="font-1 fw-bold lh-1 m-0">
+                        Initial Consultation via Google Meet
+                      </h5>
+                      <p class="text-black m-0">
+                        • We start with an initial consultation via Google Meet
+                        or your preferred virtual platform. This allows us to
+                        discuss your medical history, current health concerns,
+                        and treatment goals in detail.
+                        <br />
+                        • Our experienced medical coordinators and consultants
+                        are here to address your questions, provide insights
+                        into available treatments, and outline the benefits of
+                        choosing HealGlobe for your medical journey.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex flex-row gap-3 align-items-baseline proceduresdiv"
+                  >
+                    <div class="bg-accent-color rounded-3 py-2 px-4 text-white">
+                      <h4 class="lh-1 m-0 p-0 fw-bold font-1">2</h4>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <h5 class="font-1 fw-bold lh-1 margin-1">
+                        Customized Treatment Plan
+                      </h5>
+                      <p class="text-black m-0">
+                        • Following the consultation, our team of healthcare
+                        professionals prepares a comprehensive treatment plan
+                        specifically designed to meet your needs. <br />
+                        • The treatment plan includes recommended procedures,
+                        details on healthcare providers, estimated costs, and an
+                        anticipated timeline for your medical trip.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex flex-row gap-3 align-items-baseline proceduresdiv"
+                  >
+                    <div class="bg-accent-color rounded-3 py-2 px-4 text-white">
+                      <h4 class="lh-1 m-0 p-0 fw-bold font-1">3</h4>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <h5 class="font-1 fw-bold lh-1 m-0">
+                        Documentation and Confirmation
+                      </h5>
+                      <p class="text-black m-0">
+                        • Once you confirm your decision to proceed with
+                        HealGlobe, we initiate the documentation process
+                        promptly. <br />
+                        • Our dedicated staff assists you with gathering
+                        necessary medical records, completing paperwork, and
+                        coordinating with healthcare facilities to ensure a
+                        smooth transition for your treatment . <br />• Free
+                        simcard will be provide.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 d-flex align-items-center">
+              <div class="w-100">
+                <div class="bg-accent-color rounded-4">
+                  <div class="h-100 d-flex flex-column p-5 proceduresForm">
+                    <h6 class="font-2 text-white">Fill The Form</h6>
+                    <h3 class="font-1 lh-1 fw-bold fs-1 mb-3 text-white">
+                      Get In Touch
+                    </h3>
+                    <div
+                      class="success_msg toast align-items-center w-100 shadow-none mb-3 border border-success rounded-0 my-4"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex p-2">
+                        <div
+                          class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-success"
+                        >
+                          <i class="fa-solid fa-check f-36 text-success"></i>
+                          Your Message Successfully Send.
+                        </div>
+                        <button
+                          type="button"
+                          class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-success"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        >
+                          <i class="fa-solid fa-xmark"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="error_msg toast align-items-center w-100 shadow-none border-danger mb-3 my-4 border rounded-0"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex p-2">
+                        <div
+                          class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-danger"
+                        >
+                          <i
+                            class="fa-solid fa-triangle-exclamation f-36 text-danger"
+                          ></i>
+                          Something Wrong ! Send Form Failed.
+                        </div>
+                        <button
+                          type="button"
+                          class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-danger"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        >
+                          <i class="fa-solid fa-xmark"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <form
+                      action=""
+                      class="d-flex flex-column h-100 justify-content-center w-100 needs-validation mb-3 form"
+                      novalidate
+                    >
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control py-2 px-4"
+                          name="name"
+                          id="name"
+                          placeholder="Name"
+                          required
+                        />
+                        <div class="invalid-feedback">
+                          The field is required.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control py-2 px-4"
+                          name="email"
+                          id="email"
+                          placeholder="Email"
+                          required
+                        />
+                        <div class="invalid-feedback">
+                          The field is required.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control py-2 px-4"
+                          name="subject"
+                          id="subject"
+                          placeholder="Subject"
+                          required
+                        />
+                        <div class="invalid-feedback">
+                          The field is required.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <textarea
+                          class="form-control py-2 px-4"
+                          id="message"
+                          name="message"
+                          rows="5"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <button type="submit" class="btn submit_form py-3">
+                          Send Message
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News & Article -->
+      <section class="section">
+        <div class="r-container">
+          <div class="d-flex flex-column gap-3 text-center ourspecialities">
+            <h4 class="font-1 fa-4x">Our Specialities</h4>
+            <p class="text-black">
+              Weight Loss Treatment In India / Brain And Spine Surgery In India
+              / Cancer Treatment In India / Cardiac Surgery In India / Cosmetic
+              Surgery In India / Organ Transplant Surgery In India / Ear Throat
+              Surgery In India / Urology Surgery In India / Gastroenterology
+              Surgery In India / General Surgery In India / Eye Treatment In
+              India / Nephrology Treatment In India / Neurology Treatment In
+              India / Orthopedic Surgery In India / Robotic Surgery Hospital In
+              India / Stem Cell Therapy In India / Gynaecology Treatment In
+              India / Dental Treatment In India
+            </p>
+            <!-- <div
+              class="d-flex flex-lg-row flex-column text-lg-start text-center gap-lg-4 gap-2" -->
+
+            <!-- <div class="col col-lg-3">
+                <h6 class="font-2 accent-color">News & Article</h6>
+                <h3 class="font-1 lh-1 fw-bold fs-1 mb-3">Our Latest News</h3>
+              </div> -->
+            <!-- <div class="col col-lg-7">
+                <p class="text-black">
+                  Fusce non egestas felis, in rhoncus est. Morbi non congue
+                  orci. Sed venenatis varius convallis. Aenean vitae hendrerit
+                  est, eu molestie orci. Vivamus consectetur molestie lacus, at
+                  mattis augue porta et.
+                </p>
+              </div> -->
+            <!-- <div class="col col-lg-2">
+                <a
+                  href="news.html"
+                  type="button"
+                  class="btn bg-accent-color p-3"
+                  >View More</a
+                >
+              </div> -->
+            <!-- </div> -->
+            <!-- <div class="row row-cols-1 row-cols-lg-3">
+              <div class="col mb-3">
+                <div class="card border border-light-subtle">
+                  <img
+                    src="image/dummy-img-600x400.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-3 py-4">
+                    <h6 class="font-1 lh-1 fw-bold">
+                      Cherishing Life, Bringing Independence A Little Closer To
+                      Home
+                    </h6>
+                    <p class="text-black">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer tincidunt maximus malesuada. Quisque ut ipsum…
+                    </p>
+                    <a
+                      type="button"
+                      href="single_post.html"
+                      class="btn bg-accent-color py-3 px-4 text-white"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card border border-light-subtle">
+                  <img
+                    src="image/dummy-img-600x400.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-3 py-4">
+                    <h6 class="font-1 lh-1 fw-bold">
+                      Connected Living Strives To Curb Loneliness Amongst
+                      Seniors
+                    </h6>
+                    <p class="text-black">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer tincidunt maximus malesuada. Quisque ut ipsum…
+                    </p>
+                    <a
+                      type="button"
+                      href="single_post.html"
+                      class="btn bg-accent-color py-3 px-4 text-white"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card border border-light-subtle">
+                  <img
+                    src="image/dummy-img-600x400.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-3 py-4">
+                    <h6 class="font-1 lh-1 fw-bold">
+                      Metabolism Changes With Age, Just Not When You Might Think
+                    </h6>
+                    <p class="text-black">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer tincidunt maximus malesuada. Quisque ut ipsum…
+                    </p>
+                    <a
+                      type="button"
+                      href="single_post.html"
+                      class="btn bg-accent-color py-3 px-4 text-white"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section
+        class="position-relative weAreHere"
+        style="background-image: url(./image/we\ are\ here\ to\ heal\ you.jpg)"
+      >
+        <div class="r-container">
+          <div class="image-overlayer"></div>
+          <div class="position-relative" style="z-index: 2">
+            <div
+              class="row row-cols-1 row-cols-lg-2 text-lg-start text-center px-lg-0 px-3"
+            >
+              <div class="col">
+                <h4 class="text-white font-1 fw-bold fs-1">
+                  We Are Here To Help You Heal
+                </h4>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex justify-content-lg-end justify-content-center h-100 align-items-center"
+                >
+                  <a
+                    href="contact.html"
+                    type="button"
+                    class="btn btn-dark px-4 py-3 fs-5"
+                    >Contact Us Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="px-lg-0 px-4 py-lg-5 py-4 bg-white footerlogoContainer">
+        <div class="r-container text-black">
+          <div class="row row-cols-1 row-cols-lg-4">
+            <div class="col col-lg-4 mb-3">
+              <div class="d-flex flex-column h-100 footermobilr">
+                <div class="footerlogo-container">
+                  <img
+                    src="image/footerlogo.png"
+                    alt="Logo"
+                    class="footerlogo"
+                  />
+                </div>
+                <p>
+                  Established with a vision for global wellness, Heal Globe is
+                  committed to providing top-tier healthcare solutions and
+                  philanthropic initiatives
+                </p>
+                <div class="d-flex flex-column mb-3 socialMedia">
+                  <h5 class="font-1 fw-bold mb-2">Social Media</h5>
+                  <div class="social-container">
+                    <a href="https://www.facebook.com" class="social-item">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com" class="social-item">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com" class="social-item">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 mb-3">
+              <div class="d-flex flex-column">
+                <h5 class="font-1 fw-bold mb-3">Quick Link</h5>
+                <div class="d-flex flex-column gap-2">
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    Home</a
+                  >
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    About Us</a
+                  >
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    Services</a
+                  >
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    Contact Us</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-2 mb-3">
+              <div class="d-flex flex-column">
+                <h5 class="font-1 fw-bold mb-3">Our Services</h5>
+                <div class="d-flex flex-column gap-2">
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    Medical Tourism</a
+                  >
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    Global Education</a
+                  >
+                  <a
+                    href=""
+                    class="d-flex flex-row gap-2 align-items-center link-dark"
+                    ><i class="fa-solid fa-chevron-right accent-color"></i>
+                    Global Medical Equipment Trade</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-4 mb-3 getInTouch">
+              <div class="d-flex flex-column mb-3">
+                <h5 class="font-1 fw-bold mb-2">Get in Touch</h5>
+                <p>
+                  Bava complex kankanady Bypass Rd, Bendoorwell, Mangaluru,
+                  Karnataka 575002
+                </p>
+                <div class="d-flex flex-wrap gap-2">
+                  <div class="d-flex flex-row me-2 gap-2 align-items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <strong>Branch : </strong>North kottachery, Kanhangad
+                  </div>
+                  <div class="d-flex flex-row me-2 gap-2 align-items-center">
+                    <i class="fa-solid fa-phone"></i>
+                    <strong>Contact :</strong> +91 8089723646 <br />+91
+                    6238316116
+                  </div>
+                  <div class="d-flex flex-row me-2 gap-2 align-items-center">
+                    <i class="fa-solid fa-envelope"></i>
+                    <strong>Mail Id : </strong> info@healglobe.in
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-100"
+            style="border-bottom: 1px solid var(--accent-color-2)"
+          ></div>
+          <div class="text-center p-2">
+            © Copyright 2023. All Rights Reserved. Rometheme
+          </div>
+        </div>
+      </section>
+    </footer>
+    <div class="whats-app position-fixed responsive-whatsapp">
+      <a
+        href="https://wa.me/918089723646?text=Hello%2C%20I%20am%20interested%20in%20your%20services!"
+        target="_blank"
+      >
+        <img src="./image/whatsapp.svg" alt="" />
+      </a>
+    </div>
+
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="./js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="./js/testmonials.js"></script>
+    <script src="js/vendor/fslightbox.js"></script>
+    <script src="js/masonry.js"></script>
+  </body>
+</html>
